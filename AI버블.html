@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 버블 경고: 닷컴버블과의 평행 이론 분석</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/subsets/Paperlogy-dynamic-subset.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            /* Futuristic Tech Theme */
+            --primary-color: #00ffff; /* Cyan */
+            --accent-color: #ff00ff; /* Magenta */
+            --background-color: #121212; /* Dark */
+            --text-color: #e0e0e0; /* Light Gray */
+            --card-bg: #1e1e1e;
+            --border-color: #333;
+        }
+        body {
+            font-family: "Paperlogy", -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .slide-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            box-sizing: border-box;
+            border-bottom: 2px dashed var(--border-color);
+        }
+        .slide-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+        .slide-subtitle {
+            font-size: 1.5rem;
+            color: var(--text-color);
+            text-align: center;
+            max-width: 800px;
+            margin-bottom: 50px;
+        }
+        .content-layout {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .content-layout.reverse {
+            flex-direction: row-reverse;
+        }
+        .visual-element, .text-summary {
+            flex: 1;
+            padding: 20px;
+        }
+        .visual-element.stat {
+            background-color: var(--card-bg);
+            border: 1px solid var(--primary-color);
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+        .icon-large {
+            font-size: 7rem;
+            color: var(--accent-color);
+            text-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
+        }
+        .stat-value {
+            font-size: 5rem;
+            font-weight: 900;
+            color: var(--primary-color);
+        }
+        .stat-label {
+            font-size: 1.5rem;
+            color: var(--text-color);
+        }
+        .key-points {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .key-points li {
+            background-color: var(--card-bg);
+            border-left: 5px solid var(--accent-color);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            font-size: 1.25rem;
+            line-height: 1.6;
+            box-shadow: 0 0 10px rgba(255, 0, 255, 0.1);
+        }
+        .chart-container {
+            width: 100%;
+            height: 400px;
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="slide-container">
+        <h1 class="slide-title" style="font-size: 4.5rem;">AI 버블 경고: 닷컴버블과의 평행 이론 분석</h1>
+        <p class="slide-subtitle" style="font-size: 1.8rem;">시스코 (닷컴)와 엔비디아 (AI)의 비교를 통해 현 시장의 위험 요소와 근본적인 차이점 도출</p>
+        <div class="icon-large" style="margin-top: 50px;"><i class="fas fa-chart-line"></i></div>
+    </section>
+
+    <section class="slide-container">
+        <h2 class="slide-title">1. 급등의 평행 이론: 인프라의 삽 판매자</h2>
+        <div class="content-layout">
+            <div class="visual-element stat">
+                <div class="icon-large"><i class="fas fa-network-wired"></i></div>
+                <div class="stat-value" style="font-size: 3.5rem;">인프라 독점 공급</div>
+                <div class="stat-label">시대의 골드러시를 주도한 핵심 장비 공급자</div>
+            </div>
+            <div class="text-summary">
+                <ul class="key-points">
+                    <li><strong>유사한 지위 확보:</strong> 시스코는 인터넷 시대의 라우터/스위치 공급자였으며, 엔비디아는 AI 시대의 GPU 공급자로서 인프라의 '삽 판매자' 역할 수행함.</li>
+                    <li><strong>유사한 주가 상승세:</strong> 닷컴 버블 당시 시스코는 2년 만에 700% 이상 상승했으며, 엔비디아 역시 2022년 10월 이후 약 550% 급등하며 유사한 궤적을 보임.</li>
+                    <li><strong>시장 집중 위험:</strong> 두 시대 모두 소수 메가캡 기업이 지수 수익률을 지배하며, 엔비디아의 주가 집중도는 S&P 500 수익률의 34.5%를 차지해 시장 전체의 위험으로 작용함.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide-container">
+        <h2 class="slide-title">2. 밸류에이션 리스크: 미친 고점 vs. 급락하는 부담</h2>
+        <div class="content-layout reverse">
+            <div class="visual-element stat">
+                <div class="stat-label" style="font-size: 1.5rem; color: var(--accent-color);">닷컴 버블 정점 (2000년 3월)</div>
+                <div class="stat-value">PER 201배</div>
+                <div class="stat-label">시스코의 '미친 밸류에이션'이 버블 붕괴의 주범으로 작용함.</div>
+                <hr style="border-color: var(--border-color); margin: 20px 0;">
+                <div class="stat-label" style="font-size: 1.5rem; color: var(--primary-color);">AI 시대 현재 (2024년)</div>
+                <div class="stat-value">PER 약 75배</div>
+                <div class="stat-label">이익 급증으로 정점 대비 부담 낮아졌으며, 붕괴 직전 시스코와는 큰 차이 보임.</div>
+            </div>
+            <div class="text-summary">
+                <ul class="key-points">
+                    <li><strong>시스코의 교훈:</strong> 기업은 여전히 업계 1위지만, 주가는 24년 전의 절반 수준에 머물러 고점의 '밸류에이션'이 문제였음을 시사함.</li>
+                    <li><strong>엔비디아 이익의 선순환:</strong> 엔비디아는 실적이 발표될 때마다 이익이 급증하며 PER을 낮추고 있어, 주가 상승을 펀더멘털이 뒷받침하는 중.</li>
+                    <li><strong>버블 붕괴의 촉매:</strong> 결국 주가 버블을 붕괴시키는 것은 '매출 성장 둔화'이며, 이는 시스코의 주가 폭락의 신호탄이 되었음.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide-container">
+        <h2 class="slide-title">3. 결정적 차이: 펀더멘털 수익성과 성장 속도</h2>
+        <p class="slide-subtitle">엔비디아는 닷컴 버블 당시의 시스코보다 훨씬 더 빠르고 수익성이 높게 성장하고 있음.</p>
+        <div class="chart-container">
+            <canvas id="FundamentalChart"></canvas>
+        </div>
+        <div class="text-summary" style="margin-top: 30px;">
+             <ul class="key-points">
+                <li><strong>수익성 우위:</strong> 엔비디아의 매출총이익률은 78.3%로, 원가 대비 비싸게 팔아 많이 남기는 고마진 구조를 가짐.</li>
+                <li><strong>압도적인 성장 속도:</strong> 엔비디아의 분기 매출 증가율(YoY 262%)은 시스코의 정점 성장률(55%)을 크게 상회하며 시장 수요가 폭발적으로 증가하고 있음을 입증함.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="slide-container">
+        <h2 class="slide-title">4. 최종 결론 및 위험 요소</h2>
+        <div class="content-layout">
+             <div class="visual-element stat">
+                <div class="icon-large"><i class="fas fa-hourglass-half"></i></div>
+                <div class="stat-value" style="font-size: 3.5rem;">20년</div>
+                <div class="stat-label" style="font-size: 1.5rem; color: var(--accent-color);">시스코가 고점 회복에 소요한 시간</div>
+            </div>
+            <div class="text-summary">
+                <ul class="key-points">
+                    <li><strong>AI는 패러다임 변화:</strong> AI는 검색, 추천 시스템, 콘텐츠 조정 등 전반적인 애플리케이션을 변혁하는 패러다임 변화이며, 새로운 패러다임을 만든 기업은 상당 기간 주가 상승을 이어가는 경향을 보임.</li>
+                    <li><strong>위험 요소 존재:</strong> 엔비디아가 현재 펀더멘털은 우수하나, 주가 급등은 투기적 과열을 내포함. 닷컴 버블 붕괴 후처럼, 회복에 수십 년이 걸릴 수 있는 장기 침체 위험(Drawdown)은 여전히 유효함.</li>
+                    <li><strong>붕괴 촉매 (잠재적):</strong> 시스코의 촉매가 IT 예산 둔화였듯이, 엔비디아의 잠재적 위험은 지정학적 수출 통제, 경쟁 심화, 그리고 공급망 문제 등이 될 수 있음.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    const chartColors = {
+        primary: 'rgb(0, 255, 255)', /* Cyan */
+        accent: 'rgb(255, 0, 255)', /* Magenta */
+        grey: 'rgb(150, 150, 150)',
+    };
+    
+    // Fundamental Comparison Chart
+    const fundamentalCtx = document.getElementById('FundamentalChart');
+    if(fundamentalCtx) {
+        new Chart(fundamentalCtx, {
+            type: 'bar',
+            data: {
+                labels: ['매출 증가율 (YoY)', '매출총이익률 (Gross Margin)'],
+                datasets: [
+                    {
+                        label: '시스코 (닷컴 정점)',
+                        data: [55, 64], /* 55% Growth, 64% Margin */
+                        backgroundColor: chartColors.accent,
+                        borderColor: chartColors.accent,
+                        borderWidth: 1
+                    },
+                    {
+                        label: '엔비디아 (AI 시대)',
+                        data: [262, 78.3], /* 262% Growth, 78.3% Margin */
+                        backgroundColor: chartColors.primary,
+                        borderColor: chartColors.primary,
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: '비율 (%)',
+                            color: var(--text-color)
+                        },
+                        ticks: {
+                            color: var(--text-color),
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        }
+                    },
+                     y: {
+                         ticks: {
+                            color: var(--text-color),
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: var(--text-color)
+                        }
+                    },
+                    tooltip: {
+                         callbacks: {
+                            label: function(context) {
+                                return `${context.dataset.label}: ${context.parsed.x}%`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+});
+</script>
+</body>
+</html>
